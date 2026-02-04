@@ -2,11 +2,11 @@
 import java.util.ArrayList;
 
 
-public class StackO<T> implements Stack<T>
+public class StackA<T> implements Stack<T>
 {
     private ArrayList<T> data1;
 
-    public StackO() {
+    public StackA() {
         data1 = new ArrayList<T>();
     }
 
